@@ -17,8 +17,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## the cacheSolve function uses the MASS library to calculate the inverse of a matrix
-## within the makeCacheMatrix function, once it has not been previously calculated 
+## uses the MASS library to calculate the inverse of a matrix within
+## the makeCacheMatrix function, once 
+## it has not been previously calculated 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
